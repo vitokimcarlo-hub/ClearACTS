@@ -1,0 +1,244 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules
+
+# Build outputs
+dist
+dist-ssr
+build
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ============================================
+# SECURITY - SENSITIVE INFORMATION PROTECTION
+# ============================================
+
+# Environment variables (CRITICAL - Contains API keys, secrets, passwords)
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+.env.*.local
+
+# API Keys and Secrets
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+*.jks
+*.keystore
+secrets.json
+secrets.yaml
+secrets.yml
+secrets.xml
+api-keys.json
+api_keys.json
+credentials.json
+service-account.json
+*-credentials.json
+*-secret.json
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+*.db-journal
+*.sql.bak
+database.db
+data.db
+
+# Database dumps and backups
+*.dump
+*.backup
+*.bak
+db-dump.sql
+database-backup.sql
+
+# Configuration files with sensitive data
+config.local.js
+config.local.json
+config.production.js
+config.production.json
+config.staging.js
+config.staging.json
+settings.local.json
+settings.production.json
+
+# Private keys and certificates
+ssl/
+certs/
+keys/
+private/
+*.private
+private.key
+server.key
+client.key
+
+# Authentication and session files
+.htpasswd
+.htaccess
+auth.json
+session-store/
+sessions/
+
+# Cloud provider credentials
+.aws/
+.azure/
+.gcloud/
+.google/
+ credentials/
+.cloud-credentials/
+
+# JWT and OAuth secrets
+jwt-secret.txt
+oauth-secrets.json
+oauth-keys/
+
+# Firebase credentials
+firebase-credentials.json
+firebase-adminsdk.json
+google-services.json
+GoogleService-Info.plist
+
+# Payment gateway credentials
+stripe-*.json
+paypal-*.json
+payment-config.json
+
+# Email service credentials
+sendgrid-*.json
+mailgun-*.json
+email-credentials.json
+
+# Third-party service keys
+twilio-*.json
+sendgrid-api-key.txt
+mailgun-api-key.txt
+cloudinary-*.json
+
+# SSH keys and known hosts
+.ssh/
+id_rsa
+id_rsa.pub
+id_dsa
+id_dsa.pub
+id_ecdsa
+id_ecdsa.pub
+id_ed25519
+id_ed25519.pub
+known_hosts
+
+# Security tokens and session files
+tokens/
+.access-token
+.refresh-token
+session-token
+
+# Coverage directory used by tools like istanbul
+coverage
+*.lcov
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn
+.yarn-integrity
+
+# parcel-bundler cache
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+out
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Package locks (keep package-lock.json, ignore others)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
